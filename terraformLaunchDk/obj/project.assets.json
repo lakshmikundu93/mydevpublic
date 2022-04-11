@@ -1,0 +1,347 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "LaunchDarkly.Cache/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LaunchDarkly.Cache.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LaunchDarkly.Cache.dll": {}
+        }
+      },
+      "LaunchDarkly.CommonSdk/5.5.0": {
+        "type": "package",
+        "dependencies": {
+          "LaunchDarkly.JsonStream": "[1.0.3, 2.0.0)",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/LaunchDarkly.CommonSdk.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LaunchDarkly.CommonSdk.dll": {}
+        }
+      },
+      "LaunchDarkly.EventSource/4.1.3": {
+        "type": "package",
+        "dependencies": {
+          "LaunchDarkly.Logging": "[1.0.1, 2.0.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/LaunchDarkly.EventSource.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LaunchDarkly.EventSource.dll": {}
+        }
+      },
+      "LaunchDarkly.InternalSdk/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "LaunchDarkly.CommonSdk": "[5.5.0, 6.0.0)",
+          "LaunchDarkly.Logging": "[1.0.1, 2.0.0)",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "compile": {
+          "lib/net5.0/LaunchDarkly.InternalSdk.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/LaunchDarkly.InternalSdk.dll": {}
+        }
+      },
+      "LaunchDarkly.JsonStream/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/LaunchDarkly.JsonStream.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/LaunchDarkly.JsonStream.dll": {}
+        }
+      },
+      "LaunchDarkly.Logging/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.9"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/LaunchDarkly.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/LaunchDarkly.Logging.dll": {}
+        }
+      },
+      "LaunchDarkly.ServerSdk/6.3.2": {
+        "type": "package",
+        "dependencies": {
+          "LaunchDarkly.Cache": "1.0.2",
+          "LaunchDarkly.CommonSdk": "5.5.0",
+          "LaunchDarkly.EventSource": "4.1.3",
+          "LaunchDarkly.InternalSdk": "2.3.2",
+          "LaunchDarkly.JsonStream": "1.0.3",
+          "LaunchDarkly.Logging": "1.0.1",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "compile": {
+          "lib/net5.0/LaunchDarkly.ServerSdk.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/LaunchDarkly.ServerSdk.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "System.Collections.Immutable/1.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LaunchDarkly.Cache/1.0.2": {
+      "sha512": "0bEnUVFVeW1TTDXb/bW6kS3FLQTLeGtw7Xh8yt6WNO56utVmtgcrMLvcnF6yeTn+N4FXrKfW09KkLNmK8YYQvw==",
+      "type": "package",
+      "path": "launchdarkly.cache/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "launchdarkly.cache.1.0.2.nupkg.sha512",
+        "launchdarkly.cache.nuspec",
+        "lib/net45/LaunchDarkly.Cache.dll",
+        "lib/netstandard1.4/LaunchDarkly.Cache.dll",
+        "lib/netstandard1.6/LaunchDarkly.Cache.dll",
+        "lib/netstandard2.0/LaunchDarkly.Cache.dll",
+        "lib/netstandard2.0/LaunchDarkly.Cache.xml"
+      ]
+    },
+    "LaunchDarkly.CommonSdk/5.5.0": {
+      "sha512": "FXr09X++bZu66k8O/aMKlSntSZiuaeKXd0Op6LTpJ6P/l2QvfyJbM7OlhKi/KLJr1CO5TlOKvZjD7ud9EgCNsg==",
+      "type": "package",
+      "path": "launchdarkly.commonsdk/5.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "launchdarkly.commonsdk.5.5.0.nupkg.sha512",
+        "launchdarkly.commonsdk.nuspec",
+        "lib/net452/LaunchDarkly.CommonSdk.dll",
+        "lib/net452/LaunchDarkly.CommonSdk.xml",
+        "lib/netstandard2.0/LaunchDarkly.CommonSdk.dll",
+        "lib/netstandard2.0/LaunchDarkly.CommonSdk.xml"
+      ]
+    },
+    "LaunchDarkly.EventSource/4.1.3": {
+      "sha512": "qMb0NI+BrhjkmyVm0y/SrrDSOn+Hnm5h/bzafNryLcJ4pTjCUtFVuwYqfrmLbmC1LvUDKmK5Ae5F0/X4gFIi8A==",
+      "type": "package",
+      "path": "launchdarkly.eventsource/4.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "launchdarkly.eventsource.4.1.3.nupkg.sha512",
+        "launchdarkly.eventsource.nuspec",
+        "lib/net452/LaunchDarkly.EventSource.dll",
+        "lib/net452/LaunchDarkly.EventSource.xml",
+        "lib/netstandard2.0/LaunchDarkly.EventSource.dll",
+        "lib/netstandard2.0/LaunchDarkly.EventSource.xml"
+      ]
+    },
+    "LaunchDarkly.InternalSdk/2.3.2": {
+      "sha512": "OuOBThDVuvM0xkYup8YD/4Sz4oixDnSVBp6Qda0WwPKE/c9vE3gD+VdG0PU32VgrLRzv5PUldkMikCGWKzPpNg==",
+      "type": "package",
+      "path": "launchdarkly.internalsdk/2.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "launchdarkly.internalsdk.2.3.2.nupkg.sha512",
+        "launchdarkly.internalsdk.nuspec",
+        "lib/net452/LaunchDarkly.InternalSdk.dll",
+        "lib/net5.0/LaunchDarkly.InternalSdk.dll",
+        "lib/netcoreapp2.1/LaunchDarkly.InternalSdk.dll",
+        "lib/netstandard2.0/LaunchDarkly.InternalSdk.dll"
+      ]
+    },
+    "LaunchDarkly.JsonStream/1.0.3": {
+      "sha512": "WZxC5jQoYTqKrlrWmqV16PlNKCfDp5mQ0IuQEOOSTyVJPUPamm0IIHsyDRbDmNidNKedgFqjn8WaKBNVkakLyA==",
+      "type": "package",
+      "path": "launchdarkly.jsonstream/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "launchdarkly.jsonstream.1.0.3.nupkg.sha512",
+        "launchdarkly.jsonstream.nuspec",
+        "lib/net452/LaunchDarkly.JsonStream.dll",
+        "lib/net452/LaunchDarkly.JsonStream.xml",
+        "lib/net461/LaunchDarkly.JsonStream.dll",
+        "lib/net461/LaunchDarkly.JsonStream.xml",
+        "lib/net5.0/LaunchDarkly.JsonStream.dll",
+        "lib/net5.0/LaunchDarkly.JsonStream.xml",
+        "lib/netcoreapp2.1/LaunchDarkly.JsonStream.dll",
+        "lib/netcoreapp2.1/LaunchDarkly.JsonStream.xml",
+        "lib/netcoreapp3.1/LaunchDarkly.JsonStream.dll",
+        "lib/netcoreapp3.1/LaunchDarkly.JsonStream.xml",
+        "lib/netstandard2.0/LaunchDarkly.JsonStream.dll",
+        "lib/netstandard2.0/LaunchDarkly.JsonStream.xml"
+      ]
+    },
+    "LaunchDarkly.Logging/1.0.1": {
+      "sha512": "rWgD2CIB3rvhdgN4WkwIT9JQTK1SayubtmR4efhJis/fmlhi5J4roXtkvBs07C1mU/06farZWCXdF+KnCjdfjg==",
+      "type": "package",
+      "path": "launchdarkly.logging/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "launchdarkly.logging.1.0.1.nupkg.sha512",
+        "launchdarkly.logging.nuspec",
+        "lib/net452/LaunchDarkly.Logging.dll",
+        "lib/net452/LaunchDarkly.Logging.xml",
+        "lib/netcoreapp2.1/LaunchDarkly.Logging.dll",
+        "lib/netcoreapp2.1/LaunchDarkly.Logging.xml",
+        "lib/netstandard2.0/LaunchDarkly.Logging.dll",
+        "lib/netstandard2.0/LaunchDarkly.Logging.xml"
+      ]
+    },
+    "LaunchDarkly.ServerSdk/6.3.2": {
+      "sha512": "IBHoKWgSN4O11/DVm7pF0cWb6uwLcmUsrf8KeTOHnJ+WNrlSQ+S6RFRI4IXbGOeT2D5o+OpaDoQmWBwMiO/vYQ==",
+      "type": "package",
+      "path": "launchdarkly.serversdk/6.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "launchdarkly.serversdk.6.3.2.nupkg.sha512",
+        "launchdarkly.serversdk.nuspec",
+        "lib/net452/LaunchDarkly.ServerSdk.dll",
+        "lib/net452/LaunchDarkly.ServerSdk.xml",
+        "lib/net471/LaunchDarkly.ServerSdk.dll",
+        "lib/net471/LaunchDarkly.ServerSdk.xml",
+        "lib/net5.0/LaunchDarkly.ServerSdk.dll",
+        "lib/net5.0/LaunchDarkly.ServerSdk.xml",
+        "lib/netcoreapp2.1/LaunchDarkly.ServerSdk.dll",
+        "lib/netcoreapp2.1/LaunchDarkly.ServerSdk.xml",
+        "lib/netstandard2.0/LaunchDarkly.ServerSdk.dll",
+        "lib/netstandard2.0/LaunchDarkly.ServerSdk.xml"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.9": {
+      "sha512": "W5fbF8qVR9SMVVJqDQLIR7meWbev6Pu/lbrm7LDNr4Sp7HOotr4k2UULTdFSXOi5aoDdkQZpWnq0ZSpjrR3tjg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/3.1.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec"
+      ]
+    },
+    "System.Collections.Immutable/1.7.1": {
+      "sha512": "B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
+      "type": "package",
+      "path": "system.collections.immutable/1.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Collections.Immutable.dll",
+        "lib/net461/System.Collections.Immutable.xml",
+        "lib/netstandard1.0/System.Collections.Immutable.dll",
+        "lib/netstandard1.0/System.Collections.Immutable.xml",
+        "lib/netstandard1.3/System.Collections.Immutable.dll",
+        "lib/netstandard1.3/System.Collections.Immutable.xml",
+        "lib/netstandard2.0/System.Collections.Immutable.dll",
+        "lib/netstandard2.0/System.Collections.Immutable.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Collections.Immutable.xml",
+        "system.collections.immutable.1.7.1.nupkg.sha512",
+        "system.collections.immutable.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "LaunchDarkly.ServerSdk >= 6.3.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lakshmi.kundu\\source\\repos\\test\\terraformLaunchDk\\terraformLaunchDk\\terraformLaunchDk.csproj",
+      "projectName": "terraformLaunchDk",
+      "projectPath": "C:\\Users\\lakshmi.kundu\\source\\repos\\test\\terraformLaunchDk\\terraformLaunchDk\\terraformLaunchDk.csproj",
+      "packagesPath": "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lakshmi.kundu\\source\\repos\\test\\terraformLaunchDk\\terraformLaunchDk\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lakshmi.kundu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "LaunchDarkly.ServerSdk": {
+            "target": "Package",
+            "version": "[6.3.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

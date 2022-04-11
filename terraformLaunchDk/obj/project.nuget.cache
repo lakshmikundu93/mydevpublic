@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "TJLLSmbzIMWzB/tsxVm8ZZxnylesP+iPclCLR4+gUoiVZCpbME296gESJLUDjRFCY95lQC4ywPckCRcWkKfUbA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lakshmi.kundu\\source\\repos\\test\\terraformLaunchDk\\terraformLaunchDk\\terraformLaunchDk.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\launchdarkly.cache\\1.0.2\\launchdarkly.cache.1.0.2.nupkg.sha512",
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\launchdarkly.commonsdk\\5.5.0\\launchdarkly.commonsdk.5.5.0.nupkg.sha512",
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\launchdarkly.eventsource\\4.1.3\\launchdarkly.eventsource.4.1.3.nupkg.sha512",
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\launchdarkly.internalsdk\\2.3.2\\launchdarkly.internalsdk.2.3.2.nupkg.sha512",
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\launchdarkly.jsonstream\\1.0.3\\launchdarkly.jsonstream.1.0.3.nupkg.sha512",
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\launchdarkly.logging\\1.0.1\\launchdarkly.logging.1.0.1.nupkg.sha512",
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\launchdarkly.serversdk\\6.3.2\\launchdarkly.serversdk.6.3.2.nupkg.sha512",
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.9\\microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\lakshmi.kundu\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

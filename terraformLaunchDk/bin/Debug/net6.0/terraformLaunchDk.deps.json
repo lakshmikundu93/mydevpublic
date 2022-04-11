@@ -1,0 +1,171 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "terraformLaunchDk/1.0.0": {
+        "dependencies": {
+          "LaunchDarkly.ServerSdk": "6.3.2"
+        },
+        "runtime": {
+          "terraformLaunchDk.dll": {}
+        }
+      },
+      "LaunchDarkly.Cache/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/LaunchDarkly.Cache.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "LaunchDarkly.CommonSdk/5.5.0": {
+        "dependencies": {
+          "LaunchDarkly.JsonStream": "1.0.3",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LaunchDarkly.CommonSdk.dll": {
+            "assemblyVersion": "5.5.0.0",
+            "fileVersion": "5.5.0.0"
+          }
+        }
+      },
+      "LaunchDarkly.EventSource/4.1.3": {
+        "dependencies": {
+          "LaunchDarkly.Logging": "1.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/LaunchDarkly.EventSource.dll": {
+            "assemblyVersion": "4.1.3.0",
+            "fileVersion": "4.1.3.0"
+          }
+        }
+      },
+      "LaunchDarkly.InternalSdk/2.3.2": {
+        "dependencies": {
+          "LaunchDarkly.CommonSdk": "5.5.0",
+          "LaunchDarkly.Logging": "1.0.1",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "runtime": {
+          "lib/net5.0/LaunchDarkly.InternalSdk.dll": {
+            "assemblyVersion": "2.3.2.0",
+            "fileVersion": "2.3.2.0"
+          }
+        }
+      },
+      "LaunchDarkly.JsonStream/1.0.3": {
+        "runtime": {
+          "lib/net5.0/LaunchDarkly.JsonStream.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "LaunchDarkly.Logging/1.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.9"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/LaunchDarkly.Logging.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "LaunchDarkly.ServerSdk/6.3.2": {
+        "dependencies": {
+          "LaunchDarkly.Cache": "1.0.2",
+          "LaunchDarkly.CommonSdk": "5.5.0",
+          "LaunchDarkly.EventSource": "4.1.3",
+          "LaunchDarkly.InternalSdk": "2.3.2",
+          "LaunchDarkly.JsonStream": "1.0.3",
+          "LaunchDarkly.Logging": "1.0.1",
+          "System.Collections.Immutable": "1.7.1"
+        },
+        "runtime": {
+          "lib/net5.0/LaunchDarkly.ServerSdk.dll": {
+            "assemblyVersion": "6.3.2.0",
+            "fileVersion": "6.3.2.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/3.1.9": {},
+      "System.Collections.Immutable/1.7.1": {}
+    }
+  },
+  "libraries": {
+    "terraformLaunchDk/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LaunchDarkly.Cache/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0bEnUVFVeW1TTDXb/bW6kS3FLQTLeGtw7Xh8yt6WNO56utVmtgcrMLvcnF6yeTn+N4FXrKfW09KkLNmK8YYQvw==",
+      "path": "launchdarkly.cache/1.0.2",
+      "hashPath": "launchdarkly.cache.1.0.2.nupkg.sha512"
+    },
+    "LaunchDarkly.CommonSdk/5.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FXr09X++bZu66k8O/aMKlSntSZiuaeKXd0Op6LTpJ6P/l2QvfyJbM7OlhKi/KLJr1CO5TlOKvZjD7ud9EgCNsg==",
+      "path": "launchdarkly.commonsdk/5.5.0",
+      "hashPath": "launchdarkly.commonsdk.5.5.0.nupkg.sha512"
+    },
+    "LaunchDarkly.EventSource/4.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qMb0NI+BrhjkmyVm0y/SrrDSOn+Hnm5h/bzafNryLcJ4pTjCUtFVuwYqfrmLbmC1LvUDKmK5Ae5F0/X4gFIi8A==",
+      "path": "launchdarkly.eventsource/4.1.3",
+      "hashPath": "launchdarkly.eventsource.4.1.3.nupkg.sha512"
+    },
+    "LaunchDarkly.InternalSdk/2.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OuOBThDVuvM0xkYup8YD/4Sz4oixDnSVBp6Qda0WwPKE/c9vE3gD+VdG0PU32VgrLRzv5PUldkMikCGWKzPpNg==",
+      "path": "launchdarkly.internalsdk/2.3.2",
+      "hashPath": "launchdarkly.internalsdk.2.3.2.nupkg.sha512"
+    },
+    "LaunchDarkly.JsonStream/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WZxC5jQoYTqKrlrWmqV16PlNKCfDp5mQ0IuQEOOSTyVJPUPamm0IIHsyDRbDmNidNKedgFqjn8WaKBNVkakLyA==",
+      "path": "launchdarkly.jsonstream/1.0.3",
+      "hashPath": "launchdarkly.jsonstream.1.0.3.nupkg.sha512"
+    },
+    "LaunchDarkly.Logging/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rWgD2CIB3rvhdgN4WkwIT9JQTK1SayubtmR4efhJis/fmlhi5J4roXtkvBs07C1mU/06farZWCXdF+KnCjdfjg==",
+      "path": "launchdarkly.logging/1.0.1",
+      "hashPath": "launchdarkly.logging.1.0.1.nupkg.sha512"
+    },
+    "LaunchDarkly.ServerSdk/6.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IBHoKWgSN4O11/DVm7pF0cWb6uwLcmUsrf8KeTOHnJ+WNrlSQ+S6RFRI4IXbGOeT2D5o+OpaDoQmWBwMiO/vYQ==",
+      "path": "launchdarkly.serversdk/6.3.2",
+      "hashPath": "launchdarkly.serversdk.6.3.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/3.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W5fbF8qVR9SMVVJqDQLIR7meWbev6Pu/lbrm7LDNr4Sp7HOotr4k2UULTdFSXOi5aoDdkQZpWnq0ZSpjrR3tjg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.9",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.9.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B43Zsz5EfMwyEbnObwRxW5u85fzJma3lrDeGcSAV1qkhSRTNY5uXAByTn9h9ddNdhM+4/YoLc/CI43umjwIl9Q==",
+      "path": "system.collections.immutable/1.7.1",
+      "hashPath": "system.collections.immutable.1.7.1.nupkg.sha512"
+    }
+  }
+}
